@@ -38,6 +38,7 @@ const Cart: React.FC = () => {
               <div>
                 <h3 className="font-medium">{item.name}</h3>
                 <p className="text-gray-600">₹{item.discountedPrice}</p>
+                <p className="text-gray-700 mb-6">{item.description}</p>
               </div>
             </div>
 

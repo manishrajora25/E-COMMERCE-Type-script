@@ -242,6 +242,7 @@
 import { useContext, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import UserContext from "../Context/UserContext";
+import "../App.css"
 
 const SingleProduct: React.FC = () => {
   const { id } = useParams<{ id: string }>();

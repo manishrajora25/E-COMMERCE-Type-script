@@ -66,6 +66,8 @@ import Home from "./Pages/Home.tsx";
 import SingleProduct from "./Pages/SingleProduct.tsx";
 import Cart from "./Pages/Cart.tsx";
 import Wishlist from "./Pages/Wishlist.tsx";
+import Contact from "./Pages/Contact.tsx";
+import About from "./Pages/About.tsx";
 
 import "./App.css";
 
@@ -77,7 +79,9 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "/singleproduct/:id", element: <SingleProduct /> },
       { path: "/cart", element: <Cart /> },
-      { path: "/wishlist", element: <Wishlist /> }, // fixed
+      { path: "/wishlist", element: <Wishlist /> },
+      { path: "/contact", element: <Contact /> }, 
+      { path: "/about", element: <About /> }, // fixed
     ],
   },
 ]);

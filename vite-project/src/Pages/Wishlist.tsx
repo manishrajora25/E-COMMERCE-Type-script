@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import UserContext from "../Context/UserContext";
+import "../App.css"
 
 const Wishlist: React.FC = () => {
   const userContext = useContext(UserContext);
